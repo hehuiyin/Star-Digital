@@ -1,6 +1,6 @@
-name: "Social Network"
+name: "Star Digital"
 navbar:
-  title: "Social Network"
+  title: "Star Digital"
   left:
     - text: "About"
       href: about.html

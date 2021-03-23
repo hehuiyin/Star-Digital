@@ -13,3 +13,4 @@ If view-through conversions are ignored, then this would under-estimate the retu
 
 Solution we can provide is to conduct a controlled randomized experiment, with users randomly assigned to treatment group (that views the banner ad) and a control group (that sees a fake ad). This allows the measurement of the causal effect of banner advertising on sales conversion.
 
+The complete analysis can be seen: https://hehuiyin.github.io/Star-Digital/index.html

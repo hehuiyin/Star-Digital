@@ -11,7 +11,7 @@ output:
 ---
 ### Part 1. Online Advertising effectiveness
 
-```{r}
+```{r,include=FALSE}
 ####read data####
 star=read.csv('~/Documents/UCI/3. WINTER/BANA 277. CUST & SOCIAL ANLYT/assignment 3. star digital/star_digital.csv')
 ```

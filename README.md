@@ -2,7 +2,7 @@
 
 ## Star Digital: Assessing the effectiveness of display advertising 
 
-### Background & overview of the analysis: 
+### Background & Overview of the analysis: 
 Star Digital is a video service provider, with over 100M in annual advertising spend. They wanted to understand the impact of banner advertising on sales. Their advertising is priced on the basis of CPM - Cost per Thousand Impressions.
 
 Star Digital's problem:

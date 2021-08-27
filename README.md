@@ -43,6 +43,7 @@ While the two numbers seem to be very close, the test group is still slightly hi
 
 ### Part III. Conversion effectiveness of Sites 1-5 compare with that of Site 6
 In order to compare between site 1-5 and site 6, we added up the impression from site 1-5 and ran a logistic regression model on variables ‘imp_15’, ‘imp_6’, ‘test’ and their interaction terms.
+
 <img width="539" alt="Screen Shot 2021-08-27 at 13 51 03" src="https://user-images.githubusercontent.com/73683982/131187155-ca979587-620c-45bf-9ed7-ff7a2f767d5b.png">
 
 From the model result, we can see that for the test group, increasing 1 unit of impression increases the odds of purchasing by 2.84% on site 1-5 and increasing 1 unit of impression increases the odds of purchasing by 1.14% on site 6. Thus, we can conclude that ads on site 1-5 are more effective in terms of conversion than site 1-5 since the increase of odds of purchasing for site 1-5 is more than site 6.
@@ -51,9 +52,11 @@ From the model result, we can see that for the test group, increasing 1 unit of 
 From the previous part, we have concluded that site 1-5 is more effective. In this part, we will take the cost of the ads on each website into account to determine which one has a better ROI. The cost of advertising at Site 1-5 is 25 dollars per thousand impressions and the cost of advertising at Site 6 is 20 dollars per thousand impressions. And a purchase results in a lifetime contribution of 1,200 dollars for Star Digital.
 
 We included offset values (Population conversion rate=0.00153; Sample conversion rate=0.50) in our model to recover the biased estimate of the constant term due to oversampling in the dataset. 
+
 <img width="531" alt="Screen Shot 2021-08-27 at 14 05 54" src="https://user-images.githubusercontent.com/73683982/131188584-bd7f6e2f-cf8a-4fb2-bcd2-2682c32f296a.png">
 
 ROI calculation:
+
 <img width="451" alt="Screen Shot 2021-08-27 at 14 12 20" src="https://user-images.githubusercontent.com/73683982/131189119-a1c7ae86-e972-416f-b23b-fa9454ead300.png">
 
 From the above calculation, we can conclude that site 6 has a higher ROI than site 1-5 and thus, Star Digital should put its advertising budget on site 6.
